@@ -1,3 +1,5 @@
+package chapter1.printablelibraryapp
+
 trait Printable[A] {
   def format(value: A): String
 }
